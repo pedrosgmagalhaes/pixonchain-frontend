@@ -4,10 +4,13 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import netlifyIdentity from 'netlify-identity-widget';
+
 import './index.css';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
+netlifyIdentity.init();
 
 root.render(
   <React.StrictMode>
