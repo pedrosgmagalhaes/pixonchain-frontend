@@ -43,7 +43,7 @@ function App() {
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
         {!user ? (
           <>
-            <h1 className="text-3xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
+            <h1 className="text-3xl font-bold text-blue-600">Teste 1 2 3</h1>
             <div className="mt-4">
               <button
                 className="px-4 py-2 bg-blue-500 text-white rounded"
